@@ -1,0 +1,110 @@
+/* General Page */
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Logout Button */
+header button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+header button:hover {
+  background-color: #d32f2f;
+}
+
+/* Todo Section */
+.todo-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-container h2 {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* Input + Add Button */
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Edit & Delete Buttons */
+li button {
+  margin-left: 6px;
+  background-color: #4caf50;
+}
+
+li button:nth-child(2) {
+  background-color: #f44336;
+}
+
+li button:hover {
+  opacity: 0.9;
+}
